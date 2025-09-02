@@ -26,4 +26,27 @@ class Operaciones:
     def mostrarResultado(self):
         print(self.resultado)
         
+    def resta(self):
+        self.resultado = "La resta de " + str(self.num1) + " - " + str(self.num2) + " es igula a " + str(self.num1 - self.num2)
+    
+    def mostrarResultado(self):
+        print(self.resultado)
+        
+    def multiplicar(self):
+        self.resultado = "La multiplicación de " + str(self.num1) + " * " + str(self.num2) + " es igula a " + str(self.num1 * self.num2)
+    
+    def mostrarResultado(self):
+        print(self.resultado)
+    
+    def dividir(self):
+        self.resultado = "La división de " + str(self.num1) + " / " + str(self.num2) + " es igula a " + str(self.num1 / self.num2)
+    
+    def mostrarResultado(self):
+        print(self.resultado)
+        
+    def modulo(self):
+        self.resultado = "El módulo de " + str(self.num1) + " % " + str(self.num2) + " es igula a " + str(self.num1 % self.num2)
+    
+    def mostrarResultado(self):
+        print(self.resultado)
         
